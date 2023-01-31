@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Vício - Registro</title>
+    <link rel="shortcut icon" href="Imagens para projeto/Icon do projeto.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Registe-se Aqui!</h1>
+    </header>
+
+
+    <main>
+
+        <section>
+            
+            <fieldset>
+                <legend>Preenche o Formulário</legend>
+
+                <form action="html.php" method="post">
+
+                    <p>Nome Próprio: <br> <input type="text" name="nome" required></p>
+
+                    <p>Apelido: <br> <input type="text" name="apelido" required></p>
+
+                    <p>Email: <br> <input type="email" name="email" required></p>
+
+                    <p>Nome de Utilizador: <br><input type="text" name="username" maxlength="20" required></p>
+
+                    <p>Crie uma nova senha: <br> <input type="password" name="password" maxlength="10" required></p>
+
+                    <p>Confirme novamente a senha: <br> <input type="password" name="password" maxlength="10" required></p>
+
+
+
+                    <p>Gênero: 
+
+                        <input type="radio" name="genero" value="masculino"> Masculino
+                        <input type="radio" name="genero" value="feminino"> Feminino
+                        <input type="radio" name="genero" value="nao especificado"> Não Especificado
+                
+                    </p>
+
+                    <p>Seleciona a tua cidade: <select name="cidade" id="">
+
+                        <option value="Porto">Porto</option>
+                        <option value="Lisboa">Lisboa</option>
+                        <option value="Coimbra">Coimbra</option>
+                        <option value="Braga">Braga</option>
+                    </select></p>
+
+
+                    <p>Quais as tuas áreas preferenciais: <br>
+                    
+                    <input class="areas" type="checkbox" name="area" value="informatica"> Informática <br>
+                <input type="checkbox" name="area" value="artes"> Artes <br>
+            <input type="checkbox" name="area" value="Front-end Developer"> Front End Developer <br>
+            <input type="checkbox" name="area" value="Back-End Developer"> Back-End Developer</p>
+
+
+
+            <p>Descreve aqui um mini-currículo: <br>
+            
+            <textarea name="minicurriculo" id="" cols="30" rows="10"></textarea></p>
+
+
+            <p>Procurar: <input type="search" name="search"> <input class="submit1" type="submit" value="Pesquisar"></p>
+
+            <input class="submit1" type="submit" value="Enviar Dados"> <input class="submit1" type="submit" value="Limpar">
+                </form>
+            </fieldset>
+        </section>
+        
+    </main>
+
+
+
+    <footer>
+        <p>Site criado por <a class="link1" href="Mini-Projeto4.html">O Vicio</a> !</p>
+    </footer>
+    
+</body>
+</html>

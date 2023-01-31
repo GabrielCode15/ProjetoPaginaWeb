@@ -1,0 +1,267 @@
+@charset " UTF-8";
+
+body{
+    background-color: lightgray;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.712), rgba(0, 139, 139, 0.788));
+    padding: 20px;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+
+
+header > h1{
+    
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 39px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 139, 0.527);
+    margin-bottom: 10px;
+    padding: 5px
+}
+
+nav{
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    border-style: double;
+    border-color: rgb(168, 149, 124);
+    border-radius: 5px;
+}
+
+
+nav > a{
+
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    background-image: linear-gradient(to top, rgba(0, 139, 139, 0.959), rgb(0, 255, 255));
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.466);
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.507);
+}
+
+nav > a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1800px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+
+main > section{
+
+    background-color: rgba(128, 128, 128, 0.555);
+    min-width: 250px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 3px 3px rgba(169, 169, 169, 0.733);
+    margin-bottom:0px;
+
+}
+
+
+
+section > h4 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.651);
+}
+
+hr{
+    margin-bottom: 20px;
+
+}
+.creed{
+
+    background-color: lightgray; 
+    padding: 20px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgba(0, 139, 139, 0.767);
+    border-radius: 5px;
+    min-width: 250px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
+.creed > h2{
+
+   color:white;
+   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.849);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size: 27px;
+   margin-bottom: 30px;
+}
+
+
+figure > img{
+
+    border-radius: 30px;
+    margin-bottom: 29px;
+    width: 77%;
+    box-shadow: 3px 3px 4px rgba(118, 159, 197, 0.829);
+    
+}
+
+
+.texto1{
+
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+
+.screenshoot{
+
+    width: 41%;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+
+
+aside{
+
+    background-image: linear-gradient(to left, rgb(81, 207, 207), darkcyan);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    border-style: outset;
+    border-color: rgba(4, 100, 100, 0.452);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+aside > h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 8px;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    border-style: outset;
+    box-shadow: 2px 2px 2px rgba(3, 3, 134, 0.671);
+
+
+}
+
+
+aside > ul{
+
+    list-style-type:"\2714";
+    list-style-position: inside;
+    padding: 5px;
+    
+    
+}
+
+ul > li{
+
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+li > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+li > a:hover{
+
+    color: red;
+    text-decoration: underline;
+}
+
+
+.sabermais{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    color: darkcyan;
+    
+}
+
+.sabermais:hover{
+
+    color: red;
+}
+
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, rgb(0, 255, 255), rgb(0, 139, 139));
+    padding: 25px;
+    box-shadow: 3px 3px 4px black;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.911);
+    background-image: linear-gradient(to top, rgba(0, 139, 139, 0.336), rgba(129, 230, 230, 0.397));
+    padding: 10px;
+    border-radius: 8px;
+    border-color: antiquewhite;
+    border-style: outset;
+
+    
+}
+
+
+footer > a:hover{
+    color:blue;
+    text-decoration: underline;
+    padding: 5px;
+    
+
+}
+
+
